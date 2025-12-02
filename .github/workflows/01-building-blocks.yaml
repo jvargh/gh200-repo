@@ -12,6 +12,7 @@ jobs:
     steps:      
       - name: Success step
         run: |
+          echo "::debug::Set variable myVariable to true"
           echo "I will Succeed"
           exit 0
       - name: Say Goodbye
