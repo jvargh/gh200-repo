@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   echo-hello:
+    # if: github.branch.name == 'feature-latest'
     runs-on: ubuntu-latest
     steps:      
       - name: Say Hello
